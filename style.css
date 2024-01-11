@@ -1,0 +1,9 @@
+nav {
+    text-align: right;
+    padding: 10px;
+
+}
+
+nav li {
+    list-style: none;
+}
