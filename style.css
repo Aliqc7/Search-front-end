@@ -8,12 +8,50 @@ nav li {
     list-style: none;
 }
 
-div {
+div.google-search, div.image-search {
     text-align: center;
 }
 
+div.advanced-search {
+    padding: 5px;
+    width: 700px;
 
-form input{
+}
+
+
+div.advanced-search form input {
+    padding: 5px;
+    margin: 5px 0 5px 0;
+    width: 300px;
+
+}
+
+div.advanced-search form div{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.advanced-search form label {
+    display: inline-block;
+    margin-right: 50px;
+    padding: 5px;
+    width: 200px;
+
+}
+
+
+#advanced-search-btn {
+    background-color: blue;
+    color: white;
+    width: 120px;
+    border-radius: 5px;
+}
+
+#adv-srch-bt-div {
+    text-align: right;
+}
+
+div.image-search form input, div.google-search form input{
     display: block;
     margin: 5px auto;
     width: 400px;
@@ -23,6 +61,9 @@ form input{
     padding: 10px, 5px;
 }
 
-.search-btn {
+
+#search-btn {
     width: 150px;
 }
+
+
