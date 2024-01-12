@@ -1,7 +1,6 @@
 nav {
     text-align: right;
     padding: 10px;
-
 }
 
 nav li {
@@ -12,24 +11,22 @@ div.google-search, div.image-search {
     text-align: center;
 }
 
-div.advanced-search {
-    padding: 5px;
-    width: 700px;
 
+div.advanced-search form {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px auto;
 }
 
 
 div.advanced-search form input {
     padding: 5px;
     margin: 5px 0 5px 0;
-    width: 300px;
 
 }
 
-div.advanced-search form div{
-    display: flex;
-    justify-content: space-between;
-}
+
 
 div.advanced-search form label {
     display: inline-block;
@@ -37,6 +34,10 @@ div.advanced-search form label {
     padding: 5px;
     width: 200px;
 
+}
+
+div#advanced-search-btn-div {
+    text-align: right;
 }
 
 
@@ -47,9 +48,9 @@ div.advanced-search form label {
     border-radius: 5px;
 }
 
-#adv-srch-bt-div {
+/* #adv-srch-bt-div {
     text-align: right;
-}
+} */
 
 div.image-search form input, div.google-search form input{
     display: block;
