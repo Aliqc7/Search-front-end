@@ -5,7 +5,16 @@ nav {
 
 nav li {
     list-style: none;
+    font-size: 12px;
+    padding: 2px;
 }
+
+body {
+    font-family:arial,sans-serif;
+}
+
+
+
 
 div.google-search, div.image-search {
     text-align: center;
@@ -63,8 +72,13 @@ div.image-search form input, div.google-search form input{
 }
 
 
-#search-btn {
+#search-btn, #search-btn-lucky {
     width: 150px;
+    margin: 5px;
+}
+
+div.search-btns {
+    display: inline-flex;
 }
 
 
